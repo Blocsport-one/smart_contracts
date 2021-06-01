@@ -1,1 +1,3 @@
-# smart_contracts
+# Blocsport.one Smart Contracts
+
+## License: MIT
