@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 
 contract BlocsportOne is ERC20Permit, ERC20Burnable, Ownable {
-	constructor() ERC20Permit("blocsport.one") ERC20("blocsport.one", "BS1") {
+	constructor() ERC20Permit("blocsport.one") ERC20("blocsport.one", "BCS1") {
 		_mint(msg.sender, 1000000000000 * (10**uint256(18)));
 	}
 

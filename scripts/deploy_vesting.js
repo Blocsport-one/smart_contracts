@@ -43,7 +43,7 @@ async function main() {
 		"ETH/BNB"
 	)
 
-	const theTokenAddress = "0x8ea25718053f081992b987fbbf2e60e2e8f5b0c3"
+	const theTokenAddress = "0xc6362dC80838B5A86dA91592dba944218d80B4a3"
 	let deployed = await Vesting.deploy(theTokenAddress)
 	let dep = await deployed.deployed()
 
